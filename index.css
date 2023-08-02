@@ -1,4 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .logInBtn{
     border-radius: 12px;
     background : none;
+}
+.heroContainer{
+    background-image: url(./assets/hero/background.jpg);
+    height:100vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.heroContentContainer{
+    height: 100vh;
+}
+.heading{
+    font-size: 56px;
+}
+.getStartedBtn{
+    background-color: #FF8A00;
+    padding: 16px 32px 16px 32px;
+    color: black;
+    font-weight: medium;
 }
