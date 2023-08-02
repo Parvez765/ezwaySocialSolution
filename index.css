@@ -31,3 +31,6 @@ body{
     color: black;
     font-weight: medium;
 }
+.description{
+    width: 300px;
+}
